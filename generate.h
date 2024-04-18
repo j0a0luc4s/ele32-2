@@ -1,3 +1,7 @@
+#include <algorithm>
+#include <cstdlib>
+#include <random>
+#include <set>
 #include <vector>
 
-std::vector<std::vector<int>> generate(int, int, int, int, int);
+std::vector<int> generate(int, int, int);
